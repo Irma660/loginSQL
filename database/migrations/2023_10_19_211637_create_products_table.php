@@ -14,7 +14,7 @@ return new class extends Migration
     Schema::create('products', function (Blueprint $table) {
         $table->id();
         $table->string('name');
-        $table->integer('price');
+        $table->double('price');
         $table->text('description');
         $table->integer('stock');
         $table->string('category');
@@ -24,9 +24,6 @@ return new class extends Migration
     });
 }
 
-    /**
-     * Reverse the migrations.
-     */
     public function down(): void
     {
         Schema::dropIfExists('products');

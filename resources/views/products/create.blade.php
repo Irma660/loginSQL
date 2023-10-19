@@ -13,30 +13,29 @@
 
                         <div class="form-group">
                             <label for="name">Nombre</label>
-                            <input type="text" name="name" id="name" class="form-control">
+                            <input type="string" name="name" id="name" class="form-control">
                         </div>
 
                         <div class="form-group">
                             <label for="price">Precio</label>
-                            <input type="number" name="price" id="price" class="form-control">
+                            <input type="double" name="price" id="price" class="form-control">
                         </div>
                         <div class="form-group">
-                            <label for="price">Descripción</label>
-                            <input type="number" name="description" id="description" class="form-control">
+                            <label for="description">Descripción</label>
+                            <input type="text" name="description" id="description" class="form-control">
                         </div>
                         <div class="form-group">
-                            <label for="price">Precio</label>
-                            <input type="number" name="price" id="price" class="form-control">
+                            <label for="stock">Stock</label>
+                            <input type="integer" name="stock" id="stock" class="form-control">
                         </div>
                         <div class="form-group">
-                            <label for="price">Precio</label>
-                            <input type="number" name="price" id="price" class="form-control">
+                            <label for="category">Categoría</label>
+                            <input type="string" name="category" id="category" class="form-control">
                         </div>
                         <div class="form-group">
-                            <label for="price">Precio</label>
-                            <input type="number" name="price" id="price" class="form-control">
+                            <label for="provider">Proveedor</label>
+                            <input type="string" name="provider" id="provider" class="form-control">
                         </div>
-
                         <button type="submit" class="btn btn-primary">Agregar Producto</button>
                     </form>
                 </div>
