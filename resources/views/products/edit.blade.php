@@ -19,7 +19,7 @@
 
                         <div class="form-group">
                             <label for="price">Precio</label>
-                            <input type="double" name="price" id="price" class="form-control" value="{{ $product->price }}">
+                            <input type="text" name="price" id="price" class="form-control" value="{{ $product->price }}">
                         </div>
                         <div class="form-group">
                             <label for="description">Descripción</label>

@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
 
 class Product extends Model
 {
@@ -16,4 +17,8 @@ class Product extends Model
         'category',
         'provider',
     ];
+    public function fromDateTime($value)
+    {
+        return Carbon::parse(parent::fromDateTime($value))->format('Y-m-d H:i:s');
+    }
 }

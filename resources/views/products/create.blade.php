@@ -18,7 +18,7 @@
 
                         <div class="form-group">
                             <label for="price">Precio</label>
-                            <input type="double" name="price" id="price" class="form-control">
+                            <input type="text" name="price" id="price" class="form-control">
                         </div>
                         <div class="form-group">
                             <label for="description">Descripción</label>
