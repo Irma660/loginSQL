@@ -45,7 +45,7 @@ class User extends Authenticatable
     ];
     public function fromDateTime($value)
 {
-    return Carbon::parse(parent::fromDateTime($value)) -> format('Y-m-d H:i:s');
+    return Carbon::parse(parent::fromDateTime($value))->format('Y-m-d H:i:s');
 }
 
 }

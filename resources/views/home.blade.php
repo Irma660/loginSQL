@@ -15,6 +15,8 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    <a href="{{ route('products.index') }}">Registro de productos</a>
+                    
                 </div>
             </div>
         </div>
